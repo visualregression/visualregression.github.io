@@ -398,16 +398,18 @@ section h3.section-subheading {
 
 .pricing-section {
   border: 1px solid #d6d6d6;
-  margin-top: 2em;
+  margin: 2em auto 0;
   padding: 1em 1em 2em;
-}
-
-.pricing-section-standard {
-  margin-top: 0;
+  max-width: 25em;
 }
 
 .pricing-standard-price {
   font-size: 4em;
+}
+@media(min-width:992px) {
+  .pricing-section-standard {
+    margin-top: 0;
+  }
 }
 
 #portfolio .portfolio-item {
