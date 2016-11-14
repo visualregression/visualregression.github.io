@@ -406,6 +406,7 @@ section h3.section-subheading {
 .pricing-standard-price {
   font-size: 4em;
 }
+
 @media(min-width:992px) {
   .pricing-section-standard {
     margin-top: 0;
