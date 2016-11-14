@@ -364,6 +364,13 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+.workflow-image {
+  width: 100%;
+  max-width: 360px;
+  margin-bottom: 1em;
+  border: 1px solid #d6d6d6;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;

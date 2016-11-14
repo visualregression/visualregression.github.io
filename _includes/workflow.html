@@ -9,6 +9,7 @@
             <div class="row text-center">
                 <div class="col-md-4">
                     <h4 class="service-heading">1. Propose a Change</h4>
+                    <img class="workflow-image" src="{{ 'img/propose_a_change.png' | prepend: site.baseurl }}" alt="" />
                     <p class="text-muted">
                       Once visual-regression set up, just continue to open
                       Pull Requests on GitHub.
@@ -16,13 +17,15 @@
                 </div>
                 <div class="col-md-4">
                     <h4 class="service-heading">2. Reveive Warnings</h4>
+                    <img class="workflow-image" src="{{ 'img/receive_warnings.png' | prepend: site.baseurl }}" alt="" />
                     <p class="text-muted">
-                      If there are UI changes VisualRegressionBot will post
-                      a comment on the Pull Request with a preview of these changes.
+                      If there are visual changes, a Bot user will comment on
+                      the Pull Request with a preview of these changes.
                     </p>
                 </div>
                 <div class="col-md-4">
                     <h4 class="service-heading">3. Approve or Reject</h4>
+                    <img class="workflow-image" src="{{ 'img/approve_or_reject.png' | prepend: site.baseurl }}" alt="" />
                     <p class="text-muted">
                       You can directly approve or reject the changes from within
                       the Pull Request Comment.
