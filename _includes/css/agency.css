@@ -396,6 +396,11 @@ section h3.section-subheading {
   border: 1px solid #d6d6d6;
 }
 
+.workflow-text {
+  max-width: 25em;
+  margin: 0 auto;
+}
+
 .pricing-section {
   border: 1px solid #d6d6d6;
   margin: 2em auto 0;
