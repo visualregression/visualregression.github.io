@@ -21,12 +21,16 @@
                       We can send a notification
                       when the free tear is available
                     </p>
-                    <div class="input-group">
-                      <input type="email" class="form-control" placeholder="hello@example.org">
-                      <span class="input-group-btn">
-                        <button class="btn btn-primary" type="button">Submit</button>
-                      </span>
-                    </div>
+                    <p class="text-success notify-free-success">✔ Sweet! We'll keep you informed</p>
+                    <form method="post" action="https://zkj0zst12h.execute-api.eu-central-1.amazonaws.com/prod/notify-free">
+                      <p>
+                        <input type="text" name="contact" class="form-control" placeholder="email@example.org or @twitterHandle">
+                        <input type="hidden" name="redirect" value="{{ '?notify-free=ok#pricing' | prepend: site.url }}" />
+                      </p>
+                      <p>
+                        <input class="btn btn-primary" type="submit" value="submit" />
+                      </p>
+                    </form>
                   </div>
                 </div>
                 <div class="col-md-4">

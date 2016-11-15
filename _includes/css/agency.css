@@ -18,6 +18,10 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.text-success {
+    color: #74ba59;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -410,6 +414,14 @@ section h3.section-subheading {
 
 .pricing-standard-price {
   font-size: 4em;
+}
+
+.notify-free-success {
+  display: none;
+}
+
+.notify-free-ok .notify-free-success {
+  display: block;
 }
 
 @media(min-width:992px) {

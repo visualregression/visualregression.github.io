@@ -6,6 +6,10 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+    if (window.location.href.indexOf('notify-free=ok') !== -1) {
+      $('body').addClass('notify-free-ok');
+    }
+
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
