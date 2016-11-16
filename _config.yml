@@ -14,10 +14,6 @@ social:
   - title: github
     url: http://github.com/visualregression
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: Rainbow Road
-
 # Build settings
 markdown: kramdown
 permalink: pretty
