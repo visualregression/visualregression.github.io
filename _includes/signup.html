@@ -1,0 +1,35 @@
+<section id="signup" class="section-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sign Up</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form action="https://zkj0zst12h.execute-api.eu-central-1.amazonaws.com/prod/signup" method="post">
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                              <h5 class="text-muted">User Info</h5>
+                                <div class="control-group form-group">
+                                    <input type="email" class="form-control" placeholder="Email *" name="contact" id="email" required>
+                                </div>
+                                <div class="control-group form-group">
+                                    <input type="email" class="form-control" placeholder="Retype Email" id="email">
+                                </div>
+                                <div class="control-group form-group">
+                                    <input type="password" class="form-control" placeholder="Password *" id="password" required>
+                                </div>
+                            </div>
+                            <input type="hidden" name="redirect" value="{{ '/teaser' | prepend: site.url }}" />
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Sign Up</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>

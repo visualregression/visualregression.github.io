@@ -17,6 +17,10 @@ $(function() {
         }, 500, 'easeOutQuad');
         event.preventDefault();
     });
+
+    $('.do-signup').click(function(event) {
+      $('body').addClass('show-signup');
+    });
 });
 
 // Highlight the top nav as scrolling occurs
