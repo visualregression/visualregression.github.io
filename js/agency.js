@@ -21,6 +21,46 @@ $(function() {
     $('.do-signup').click(function(event) {
       $('body').addClass('show-signup');
     });
+
+    $('#intro-signup').click(function() {
+      ga('send', 'event', 'Signup', 'header-goto', 'test1', 10);
+    });
+
+    $('#pricing-signup').click(function() {
+      ga('send', 'event', 'Signup', 'pricing-goto', 'test1', 10);
+    });
+
+    $('#actual-signup').click(function() {
+      ga('send', 'event', 'Signup', 'signup', 'test1', 100);
+    });
+
+    $('#goto-percy').click(function() {
+      ga('send', 'event', 'Signup', 'exit-percy', 'test1', -50);
+    });
+
+    $('#goto-api-docs').click(function() {
+      ga('send', 'event', 'Exit', 'exit-api-docs', 'test1', 5);
+    });
+
+    $('#goto-nodejs').click(function() {
+      ga('send', 'event', 'Exit', 'exit-nodejs', 'test1', -10);
+    });
+
+    $('#contact-sponsor').click(function() {
+      ga('send', 'event', 'Contact', 'sponsor-goto', 'test1', 20);
+    });
+
+    $('#contact-business').click(function() {
+      ga('send', 'event', 'Contact', 'business-goto', 'test1', 20);
+    });
+
+    $('#contact-email').click(function() {
+      ga('send', 'event', 'Contact', 'email', 'test1', 1);
+    });
+
+    $('#contact-twitter').click(function() {
+      ga('send', 'event', 'Contact', 'twitter', 'test1', 1);
+    });
 });
 
 // Highlight the top nav as scrolling occurs
