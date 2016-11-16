@@ -4,7 +4,7 @@ baseurl:
 # Site settings
 title: Visual Regression
 email: visual-regression@xiphe.net
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Automate UI testing within your GitHub flow and existing unit and integration tests."
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
